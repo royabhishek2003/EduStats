@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-Raleway: Raleway, sans-serif;
+  --font-Poppins: Poppins, sans-serif;
+  --font-Kanit: Kanit, sans-serif;
+  --color-primary: #0D9AB8;
+  --color-secondary: #bae1e8;
+  --color-mainBlue: #6D54B5;
+}
+
+body {
+  background-color: #020617;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.export-safe * {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-color: #dddddd !important;
+}
+
+.export-safe canvas {
+  background-color: transparent !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
